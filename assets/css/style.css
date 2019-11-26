@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.social {
+	position: fixed; 
+	left: 0;
+	top: 200px; 
+	z-index: 2000;  
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 15px 20px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} 
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px;
+    }
+
+
+
+h1{ 
+    color: turquoise;
+    display: block;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin: -1% auto auto auto;
+}
+
+.header{
+    width: 100%;
+    grid-column: 1/4;
+    height: 486px;
+    background-image: url('../img/principal.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.header h1{
+    margin-top: 400px;
+    margin-left: 30px;
+    float: left;
+    color: white;
+    background: black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    font-style: oblique;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color: rgb(29, 28, 28);
+    font-size: 30px;
+    
+}
+
+.menu li{
+    grid-column: 1/4;
+    align-items: center;
+    margin-right: 30px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    
+    background-position: center;
+
+    
+    margin-bottom: 25px;
+}
+
+.home{
+    height: 100px;
+    width: 100px;
+    grid-column: 4/4;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: -6px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    
+}
+
+.relleno{
+    grid-column: 1/4;
+}
+
+
+
+
+.descrp h4{
+    padding: 0% 0% 0% 15%;
+    color: aqua;
+    background-color: grey;
+    text-align: center;
+}
+
+.descrp p{
+    padding: 0% 20% 0% 18%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    grid-column: 1/4;
+    background-color: purple;
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h3{
+    color: rgb(50, 82, 70);
+    padding: 0% 0% 0% 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.a{
+    image-orientation: flip;
+}
+
